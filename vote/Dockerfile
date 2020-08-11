@@ -12,7 +12,6 @@ RUN pip install -r requirements.txt
 ADD . /app
 
 # Make port 80 available for links and/or publish
-EXPOSE 443
 EXPOSE 80
 
 # Define our command to be run when launching the container
